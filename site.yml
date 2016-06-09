@@ -3,3 +3,8 @@
   roles:
     - ansible-user
   tags: base-provision
+
+- hosts: web
+  roles:
+    - provision-java
+  tags: provision
